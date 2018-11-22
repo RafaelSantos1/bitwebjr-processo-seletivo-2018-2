@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Disabled e readonly</title>
+  </head>
+
+  <body>
+    <h1>Exemplo de campos e botões desabilitados e campos fixos</h1>
+
+    <form method="post">
+      <label for="nome_id">Nome: </label>
+      <input id="nome_id" name="nome" type="text" value="Daqui ninguém me tira"
+      readonly /><!-- campo fixo -->
+
+      <label for="email_id">E-mail: </label>
+      <input id="email_id" name="email" type="email" value="Estou desabilitado"
+      disabled /><!-- campo desabilitado -->
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

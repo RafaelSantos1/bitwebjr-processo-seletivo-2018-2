@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Radios</title>
+  </head>
+
+  <body>
+    <h1>Exemplo de radios</h1>
+
+    <!-- com o elementos radio podemos selecionar apenas um item -->
+
+    <form method="post">
+      <label for="windows_id">Windows</label>
+      <input id="windows_id" type="radio" value="windows"
+      name="sistema_operacional" checked />
+
+      <label for="linux_id">Linux</label>
+      <input id="linux_id" type="radio" value="linux"
+      name="sistema_operacional" />
+
+      <label for="macos_id">Mac OS</label>
+      <input id="macos_id" type="radio" value="macos"
+      name="sistema_operacional" />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

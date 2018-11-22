@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Caixas de entrada expecíficas</title>
+  </head>
+
+  <body>
+    <h1>Exemplos de caixas de entrada específicas</h1>
+
+    <form method="post">
+      <label for="busca_id">Busca: </label>
+      <input
+        id="busca_id"
+        type="search"
+        name="busca"
+        placeholder="Digite o termo da busca"
+      /><!-- caixa de busca -->
+
+      <!--
+        os atributos estão escritos dessa forma para facilitar a visualização,
+        podemos escrever em apenas uma linha:
+
+        <input id="busca_id" type="search" name="busca" placeholder="Buscar" />
+      -->
+
+      <br />
+
+      <label for="idade_id">Idade: </label>
+      <input
+        id="idade_id"
+        type="number"
+        name="idade"
+        min="18"
+        max="60"
+      /><!-- caixa de numeral -->
+
+      <br />
+
+      <label for="curtiu_id">Curtiu: </label>
+      <input
+        id="curtiu_id"
+        type="range"
+        name="curtiu"
+        min="0"
+        max="10"
+      /><!-- caixa de extensão -->
+
+      <br />
+
+      <label for="email_id">E-mail: </label>
+      <input
+        id="email_id"
+        type="email"
+        name="email"
+        placeholder="Digite o seu e-mail"
+      /><!-- caixa de email -->
+
+      <br />
+
+      <label for="telefone_id">Telefone: </label>
+      <input
+        id="telefone_id"
+        type="tel"
+        name="telefone"
+        placeholder="Digite seu telefone"
+      /><!-- caixa de telefone -->
+
+      <br />
+
+      <label for="site_id">Site: </label>
+      <input
+        id="site_id"
+        type="url"
+        name="site"
+        placeholder="Digite seu site"
+      /><!-- caixa de url -->
+
+      <br />
+
+      <label for="nascimento_id">Nascimento: </label>
+      <input
+        id="nascimento_id"
+        type="date"
+        name="nascimento"
+      /><!-- caixa de data e horário com fuso horário -->
+
+      <br />
+
+      <label for="festa_aniversario_id">Festa de aniversário: </label>
+      <input
+        id="festa_aniversario_id"
+        type="datetime-local"
+        name="festa_aniversario"
+      /><!-- caixa de data e horário sem fuso horário -->
+
+      <br />
+
+      <label for="proximo_carnaval_mes_id">Mês do próximo Carnaval: </label>
+      <input
+        id="proximo_carnaval_mes__id"
+        type="month"
+        name="proximo_carnaval_mes"
+      /><!-- caixa de mês e ano sem fuso horário -->
+
+      <br />
+
+      <label for="semana_rockinrio_id">Semana do Rock in Rio: </label>
+      <input
+        id="semana_rockinrio_id"
+        type="week"
+        name="semana_rockinrio"
+      /><!-- caixa de semana e ano sem fuso horário -->
+
+      <br />
+
+      <label for="horario_de_entrada_id">Horário de entrada: </label>
+      <input
+        id="horario_de_entrada_id"
+        type="time"
+        name="horario_de_entrada"
+      /><!-- caixa de horário sem fuso horário -->
+
+      <br />
+
+      <label for="senha_id">Senha: </label>
+      <input
+        id="senha_id"
+        type="password"
+        name="senha"
+        placeholder="Digite sua senha"
+      /><!-- caixa de senha -->
+
+      <br />
+
+      <label for="mensagem_id">Mensagem: </label>
+      <textarea
+        id="mensagem_id"
+        name="mensagem"
+        rows="5"
+        cols="50"
+        maxlength="150"
+      ></textarea><!-- caixa de texto longo -->
+
+      <br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
