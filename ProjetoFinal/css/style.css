@@ -1,0 +1,63 @@
+.img-logo{
+    width: 50px;
+    margin-top:8px;
+}
+.menu a:hover{
+    background-color:red;
+}
+.secao{
+    position: relative;
+}
+.secao img{
+    width: 100%;
+    height: 400px;
+}
+.texto{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 200px;
+}
+.texto h1{
+    color:#FFD700;
+    font-size: 50px;
+    margin-top: 65px;
+}
+.texto p{
+    font-size: 20px;
+}
+.links{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.dispositivos{
+    margin-left: 200px;
+    margin-top:-50px;
+}
+.img{
+    margin:50px -50px 0px 250px;
+    width: 300px;
+    height: 400px;
+}
+.secao2{
+    width: auto;
+    height: 500px;;
+    background-color: #F4E3B2;
+}
+.art{
+    margin-top:-208px;
+    margin-left:322px;
+}
+.art a{
+    position: absolute;
+    margin-top:-20px;
+    margin-left: 30px;
+}
+.sec-carousel{
+    height: 300px;;
+}
+.carousel{
+    margin-top:30px;
+}
+.caixa-texto{
+    font-size: 10px;
+}

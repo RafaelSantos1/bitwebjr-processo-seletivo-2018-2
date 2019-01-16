@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Materialize font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+          
+    <title>Projeto Final - Free Fire </title>
+</head>
+<body>
+
+    <header>
+         <!-- Barra de Navegacao -->
+        <nav class="black">
+                <div class="nav-wrapper container"> 
+                        <img class="img-logo" src="img/logo.png" alt="">       
+                    <a href="#" class="brand-logo">  Garena</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+        
+                    <ul class="right hide-on-med-and-down menu">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>                    
+                </div>
+        
+                <ul id="mobile-demo" class="sidenav">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+        </nav>
+        <!--Fim Barra de Navegacao-->
+    </header>
+
+    <main>
+        <section class="secao">
+            <img src="img/thumb-1920-915847.jpg" width="auto" alt="FREE FIRE">
+            <article class="texto">
+                <h1>Battle Royale</h1>
+                <p class="white-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel adipisci magni recusandae excepturi rerum. Voluptate expedita quaerat eius, unde voluptatum facere. 
+                </p>
+                <a href="#" class="waves-effect waves-light btn orange">JOGAR</a>
+            </article>
+        </section>
+
+        <section class="container">
+                
+                <article class="dispositivos">
+                    <h1 class="black-text">Dispostivos Aceitos</h1>
+                    <a href="#" class="links waves-effect waves-light btn orange">IOS</a>
+                    <a href="#" class="links waves-effect waves-light btn orange">Android</a>
+                    <a href="#" class="links waves-effect waves-light btn orange">PC (Emulador)</a>
+                </article>
+        </section>
+
+        <section class="secao2">
+                <div class="row">
+                        <div class="col">
+                            <img class="img" src="img/poster.jpg">
+                            <article class="art"> 
+                                <h2 class="white-text">Titulo</h2>
+                                <a href="#" class="red-text">Clique Aqui</a>
+                            </article>
+                        </div>
+                        
+                        <div class="col">
+                            <img src="img/poster.jpg" class="img" alt="">
+                            <article class="art"> 
+                                    <h2 class="white-text">Titulo</h2>
+                                    <a href="#" class="red-text">Clique Aqui</a>
+                                </article>
+                            </div>
+                </div>
+        </section>
+
+        <section class="container sec-carousel">
+                <div class="carousel">
+                        <a class="carousel-item" href="#one!">
+                                <img src="img/free_fire-e1532380966905.png">
+                        </a>
+                
+                        <a class="carousel-item" href="#two!">
+                            <img src="img/02.jpg" width="400">
+                        </a>
+                
+                        <a class="carousel-item" href="#three!">
+                            <img src="img/free_fire-e1532380966905.png">
+                        </a>
+                
+                        <a class="carousel-item" href="#four!">
+                                <img src="img/02.jpg" width="400">
+                        </a>                       
+            
+                      </div>
+        </section>
+        
+        <section class="blue center">            
+            <h1 class="white-text">Inscreva-se</h1>
+            <form>
+                <input type="text" style="color:white;width:200px;" placeholder="E-mail">
+                <input type="submit" class="btn" value="Enviar">
+            </form>
+        </section>
+            
+        
+    </main>
+   
+    <footer class="page-footer black">
+            <div class="container">
+              <div class="row">
+                <div class="col l4 center">
+                    <h5 class="white-text">Mapa do Site</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col l4 ">
+                  <h5 class="white-text">Endereço</h5>
+                  <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 ">
+                        <h5 class="white-text">Redes sociais</h5>
+                        <div class="row">
+                                <div class="col">
+                                    <img width="50px" src="img/poster.jpg">
+                                </div>
+                                <div class="col">
+                                        <img width="50px" src="img/poster.jpg">
+                                </div>
+                                <div class="col">
+                                        <img width="50px" src="img/poster.jpg">
+                                </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+           
+    </footer>          
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+            //SideNav
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.sidenav');
+                var instances = M.Sidenav.init(elems);
+            });
+             //Carousel
+            document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems,{dist: 100});
+        });
+    </script>
+</body>
+</html>

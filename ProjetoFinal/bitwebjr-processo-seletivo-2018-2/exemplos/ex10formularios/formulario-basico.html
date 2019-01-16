@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Formulário</title>
+  </head>
+  
+  <body>
+    <h1>Exemplo de formulário</h1>
+    
+    <h2>Método GET</h2>
+    
+    <!--
+      o atributo action do elemento form foi omitido, infelizmente não
+      aprenderemos php ou qualquer outra linguagem que lide com formulários :(
+    -->
+    
+    <form method="get">
+      <label for="nome_id">Nome: </label>
+      <input id="nome_id" type="text" name="nome" placeholder="Seu nome" />
+
+      <label for="estado_id">Estado: </label>
+      <input id="estado_id" type="text" name="estado" placeholder="Seu estado"
+      />
+
+      <input type="submit" value="Enviar" />
+    </form>
+    
+    <h2>Método POST</h2>
+    
+    <form method="post">
+      <label for="nome_id">Nome: </label>
+      <input id="nome_id" type="text" name="nome" placeholder="Seu nome" />
+
+      <label for="estado_id">Estado: </label>
+      <input id="estado_id" type="text" name="estado" placeholder="Seu estado"
+      />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
+

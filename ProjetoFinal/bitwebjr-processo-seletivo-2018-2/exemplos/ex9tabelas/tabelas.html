@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tabelas</title>
+  </head>
+  
+  <body>
+    <h1>Exemplo de tabela</h1>
+    
+    <table><!-- início da tabela -->
+      <caption>Carros</caption><!-- o elemento capotion deve ser o primeiro
+      filho do elemento table -->
+      
+      <colgroup>
+        <col span="2" style="background-color: orange" /><!-- aqui selecionamos
+        as duas primeira colunas -->
+        <col style="background-color: lightblue" /><!-- como a tabela tem três
+        colunas e duas já foram selecionadas, este elemento col se aplica à
+        última coluna -->
+      </colgroup>
+      
+      <thead><!-- definição do cabeçalho da tabela -->
+        <tr><!-- linha da tabela -->
+          <th>Marca</th><<!-- elementos de título -->
+          <th>Modelo</th>
+          <th>Ano</th>
+        </tr>
+      </thead>
+      
+      <tfoot><!-- definição do rodapé da tabela -->
+        <tr><!-- linha da tabela -->
+          <td colspan="3">Última atualização: 06/2012</td><!-- elemento de
+          descrição que se estende por três colunas -->
+        </tr>
+      </tfoot>
+      
+      <tbody><!-- definição do corpo da tabela -->
+        <tr><!-- linha da tabela -->
+          <td rowspan="2">Toyota</td><!-- elementos de descrição, este elemento
+          td se estende por duas linhas -->
+          <td>Corolla</td>
+          <td>2010</td>
+        </tr>
+        
+        <tr>
+          <td>Camry</td>
+          <td>2011</td>
+        </tr>
+        
+        <tr>
+          <td rowspan="3">Honda</td>
+          <td>Civic</td>
+          <td>2004</td>
+        </tr>
+        
+        <tr>
+          <td>Fit</td>
+          <td>2012</td>
+        </tr>
+        
+        <tr>
+          <td>City</td>
+          <td>2011</td>
+        </tr>
+        
+        <tr>
+          <td>Mitsubishi</td>
+          <td>Lancer</td>
+          <td>2012</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+

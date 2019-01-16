@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Data e hora</title>
+  </head>
+  
+  <body>
+    <h1>Exemplos de data e hora</h1>
+    
+    <!--
+      data: ano, mês e dia
+      horário: hora, minuto e segundo
+    -->
+    
+    <ul>
+      <!-- data e hora no conteúdo do elemento time -->
+      <li><time>2010-08</time></li><!-- ano e mês -->
+      <li><time>1984-10-30</time></li><!-- ano, mês e dia -->
+      <li><time>12-25</time></li><!-- hora e minuto -->
+      <li><time>09:00</time></li><!-- hora e minuto -->
+      <li><time>2013-12-25 23:59</time></li><!-- Data, hora e minuto -->
+      
+      <!-- data e hora no valor do atributo datetime -->
+      <li><time datetime="1992-10">Fundação do Cartoon Network</time></li><!-- 
+      quando definos a data e hora no valor do atributo datetime, apenas o
+      conteúdo do elemento time é exibido -->
+      <li><time datetime="1994-05-24">Aniversário do Felipe</time></li>
+      <li><time datetime="12-25">Natal</time></li>
+      <li><time datetime="09:00">Horário de Entrada</time></li>
+      <li><time datetime="2013-12-31 23:59:59">Ano Novo 2014</time></li>
+    </ul>
+  </body>
+</html>
+
